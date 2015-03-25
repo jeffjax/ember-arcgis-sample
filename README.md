@@ -34,3 +34,4 @@ Contact
 ====
 
 [www.emberjs.com](http://www.emberjs.com)
+# ember-arcgis-sample
