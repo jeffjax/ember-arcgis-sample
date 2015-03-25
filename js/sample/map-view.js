@@ -6,10 +6,6 @@ define([
     "esri/arcgis/utils"
 ], function (App, arcgisUtils) {
 
-    // the MapView will observe the underlying model - the web map item - and if it
-    // changes, use the ArcGIS API to load the map. Before loading a new map we first
-    // need to remove the old one.
-    //
     App.MapView = Ember.View.extend({
 
         onDidInsertElement: function() {
