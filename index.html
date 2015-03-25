@@ -11,20 +11,18 @@
     <script>
         dojoConfig= {
             parseOnLoad: false,
-            baseUrl: "js",
             packages: [
-                {"name": "esri", "location": "//js.arcgis.com/3.13/esri"},
-                "sample"
+                {"name":"sample", "location": location.pathname.replace(/\/[^/]+$/, "") + "/js/sample"}
             ]
         };
     </script>
+    <script src="//js.arcgis.com/3.13/"></script>
 
 
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/ember-template-compiler-1.10.0.js"></script>
     <script src="js/libs/ember-1.10.0.debug.js"></script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.2/dojo/dojo.js"></script>
     <script src="run.js"></script>
 
     <script type="text/x-handlebars">
