@@ -1,0 +1,40 @@
+{
+  "name": "ember-arcgis-sample",
+  "version": "1.0.0",
+  "description": "Sample all showing how to work with Ember and the ArcGIS JS API",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "browser-sync": "^2.4.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.4.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.4",
+    "gulp-load-plugins": "^0.9.0",
+    "jshint-stylish": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbouwman/ember-arcgis-sample.git"
+  },
+  "keywords": [
+    "ArcGIS",
+    "EmberJs",
+    "GIS",
+    "Esri"
+  ],
+  "author": "Jeff Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbouwman/ember-arcgis-sample/issues"
+  },
+  "homepage": "https://github.com/dbouwman/ember-arcgis-sample"
+}

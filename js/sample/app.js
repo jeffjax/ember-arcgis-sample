@@ -1,6 +1,6 @@
 
 define(function () {
-
+    'use strict';
     var isDebug = true;
     var App = Ember.Application.create({
         LOG_TRANSITIONS: isDebug,

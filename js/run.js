@@ -1,17 +1,18 @@
+
 /**
  * Created by jeff on 3/24/15.
  */
 
 require([
-    "sample/app",
-    "sample/map-view"
+    'sample/app',
+    'sample/map-view'
 ], function (App) {
-
+    'use strict';
     // define the routes
     //
     App.IndexRoute = Ember.Route.extend({
         beforeModel: function (transition) {
-            this.transitionTo("map");
+            this.transitionTo('map');
         }
     });
 
@@ -19,7 +20,7 @@ require([
     // start the router
     //
     App.Router.map(function() {
-        this.resource("map");
+        this.resource('map');
     });
 
     // we are now ready and can let the app
